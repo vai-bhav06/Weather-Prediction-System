@@ -50,7 +50,7 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
 
 🔧 **2. Data Preprocessing**
 
-- **Script:** data_processing.py`  
+- **Script:** `data_processing.py`  
 - **Purpose:** Clean, format, and generate training features  
 - **Output:** `Training_data.csv`
 
@@ -69,7 +69,7 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
 
 **Edit** the `app.py` file and **load your desired model**, for example:
 ``python
-model = joblib.load("models/Ensemble_model.joblib")
+`model = joblib.load("models/Ensemble_model.joblib")`
 
 
 ### 🌐 5. Build Web App
@@ -88,7 +88,7 @@ model = joblib.load("models/Ensemble_model.joblib")
 2. Navigate to your project folder  
 3. Run the Streamlit app using:
 ``bash
-streamlit run app.py
+`streamlit run app.py`
 
 
 ### 📊 Sample Output
