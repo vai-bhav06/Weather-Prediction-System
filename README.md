@@ -68,12 +68,12 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
 ### 🔄 4. Select ML Model for Deployment
 
 **Edit** the `app.py` file and **load your desired model**, for example:
-
-```python
-`model = joblib.load("models/Ensemble_model.joblib")`
+``python
+model = joblib.load("models/Ensemble_model.joblib")
 
 
 ### 🌐 5. Build Web App
+
 **Script:** `app.py`  
 **Purpose:** Create a Streamlit-based web application where users can:
 - 📍 Select a city and date
@@ -85,15 +85,22 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
 
 **Steps:**
 1. Open a terminal or command prompt  
-2. Navigate to your project directory  
-3. Run the Streamlit application using the following command:
-```bash
+2. Navigate to your project folder  
+3. Run the Streamlit app using:
+``bash
 streamlit run app.py
 
-📊 Sample Output
-Predicted weather condition: Sunny, Cloudy, or Rainy
-Hourly weather forecast displayed in a table
-Interactive bar graphs for each parameter
+
+### 📊 Sample Output
+
+- ✅ **Predicted Weather Condition:** Sunny, Cloudy, or Rainy  
+- 📅 **Hourly Weather Forecast:** Displayed in a neat and scrollable table  
+- 📊 **Visualization:** Interactive bar graphs for:
+  - Temperature (°C)
+  - Humidity (%)
+  - Wind Speed (km/h)
+  - Precipitation (mm)
+
 
 
 
