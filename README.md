@@ -56,7 +56,7 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
 
 ### 🧠 3. Model Training
 
-**Script:** `3_model_building.py`  
+**Script:** `model_building.py`  
 **Purpose:** Train multiple models and save the best ensemble model  
 **Output Models:**
 - `SVC_model.joblib`
