@@ -68,8 +68,10 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
 ### 🔄 4. Select ML Model for Deployment
 
 **Edit** the `app.py` file and **load your desired model**, for example:
+
 ```python
-model = joblib.load("models/Ensemble_model.joblib")
+`model = joblib.load("models/Ensemble_model.joblib")`
+
 
 ### 🌐 5. Build Web App
 **Script:** `app.py`  
