@@ -100,6 +100,11 @@ A web-based application that predicts daily weather conditions (Sunny, Cloudy, o
   - Humidity (%)
   - Wind Speed (km/h)
   - Precipitation (mm)
+    
+ ![weatherpred](https://github.com/user-attachments/assets/4e65d322-6f47-49dc-b443-65bd1154dc63)
+
+
+ 
 
 
 
